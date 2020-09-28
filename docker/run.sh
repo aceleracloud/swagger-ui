@@ -35,6 +35,10 @@ if [ "$SWAGGER_JSON_URL" ]; then
   sed -i "s|http://example.com/api|$SWAGGER_JSON_URL|g" $INDEX_FILE
 fi
 
+# remove explorer bar
+sed -i 's/SwaggerUIStandalonePreset//' $INDEX_FILE
+sed -i 's/layout: "StandaloneLayout",//' $INDEX_FILE
+
 if [[ -f "$SWAGGER_JSON" ]]; then
   cp -s "$SWAGGER_JSON" "$NGINX_ROOT"
   REL_PATH="./$(basename $SWAGGER_JSON)"

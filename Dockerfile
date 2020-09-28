@@ -21,9 +21,6 @@ COPY ./dist/* /usr/share/nginx/html/
 COPY ./docker/run.sh /usr/share/nginx/
 COPY ./docker/configurator /usr/share/nginx/configurator
 
-# remove explorer bar
-RUN sed -i 's/SwaggerUIStandalonePreset/SwaggerUIStandalonePreset.slice(1)/' /usr/share/nginx/html/index.html
-
 RUN chmod +x /usr/share/nginx/run.sh && \
     chmod -R a+rw /usr/share/nginx && \
     chmod -R a+rw /etc/nginx && \
