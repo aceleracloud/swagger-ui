@@ -139,7 +139,7 @@
     "git-describe": "^4.0.4",
     "http-server": "^0.12.3",
     "ignore-assets-webpack-plugin": "^2.0.1",
-    "inspectpack": "=4.5.2",
+    "inspectpack": "=4.7.1",
     "jest": "=27.0.6",
     "jsdom": "=16.6.0",
     "json-loader": "^0.5.7",
