@@ -86,7 +86,7 @@
     "react-motion": "^0.5.2",
     "react-redux": "=5.1.2",
     "react-syntax-highlighter": "=13.5.0",
-    "redux": "=3.7.2",
+    "redux": "=4.1.0",
     "redux-immutable": "4.0.0",
     "remarkable": "^2.0.1",
     "reselect": "^4.0.0",
