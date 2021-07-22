@@ -118,7 +118,7 @@
     "body-parser": "^1.19.0",
     "bundlesize": "^0.18.0",
     "chromedriver": "^91.0.1",
-    "copy-webpack-plugin": "^6.0.0",
+    "copy-webpack-plugin": "^6.4.1",
     "cors": "^2.8.5",
     "cross-env": "=7.0.3",
     "css-loader": "^5.2.7",
